@@ -1,7 +1,7 @@
-const fs = require("fs");
-const path = require("path");
-const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown");
+import writeFile  from "fs";
+import path from "path";
+import inquirer from "inquirer";
+import generateMarkdown from "./utils/generateMarkdown.js";
 
 // array of questions for user
 const questions = [
@@ -53,7 +53,6 @@ const questions = [
     type: "input",
     name: "userName",
     message: "What is your GitHub username?",
-    validate: validateInput,
   },
   {
     type: "input",
