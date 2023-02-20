@@ -24,7 +24,7 @@ const questions = [
     type: "input",
     message:
       "explaIn how to install the software, or commands for the program.",
-    name: "install",
+    name: "installation",
   },
   {
     type: "input",
