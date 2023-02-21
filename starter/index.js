@@ -67,7 +67,7 @@ const questions = [
     },
   },
 ];
-
+//license 
 const getLicense = (value) => {
     if(value === "CC BY 4.0") {
         return "[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)]"
@@ -83,7 +83,6 @@ const getLicense = (value) => {
         return "Please choose a license. "
     }
 }
-
 // function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, generateMarkdown(data), (err) => {
@@ -92,7 +91,6 @@ function writeToFile(fileName, data) {
         }
     });
 }
-
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then((data) => {
@@ -101,6 +99,5 @@ function init() {
         writeToFile("./example/README.md", data);
     });
 }
-
 // function call to initialize program
 init();
