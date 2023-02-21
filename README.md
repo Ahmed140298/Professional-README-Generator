@@ -34,12 +34,7 @@
 
 ## Review
 
-- A walkthrough video demonstrating the functionality of the application.
-
-[![Watch the video](demoo.mov)
-
-
-
 - A sample README.md file for a project repository generated using your application
 
-- The URL of the GitHub repository.
+[![Demo image](demo.jpg)
+
